@@ -4,6 +4,10 @@
 ```
 npm install
 ```
+## This is a music app
+```
+这是我的一个音乐播放器APP请查看
+```
 
 ### Compiles and hot-reloads for development
 ```

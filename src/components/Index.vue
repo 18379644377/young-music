@@ -112,7 +112,6 @@ export default {
                 var songs = JSON.stringify(data.data.data.songs.slice(0,50));
                 localStorage.setItem('songs',songs);
                 this.dataSongs = JSON.parse(localStorage.getItem('songs')); 
-                // console.log('this.data ==> ',this.dataSongs) 
             }, () => {
                  Valuefrom.alert('数据请求失败，请检查网络');
                  this.dataSongs = JSON.parse(localStorage.getItem('songs')); 
